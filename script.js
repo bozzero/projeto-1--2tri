@@ -6,33 +6,36 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "É fã de filme de terror? Adora ver os mais medrosos tomar um sustinho básico? Já assistiu aos clássicos, como o Iluminaddo e Paicose? Acha que sabe tudo sobre genero",
-        alternativas: [
+        enunciado: " "É fã de filme de terror?,Adora ver os mais medrosos tomando sustos,Eles foram avisados, Eles estavam condenados,e na sexta-feira, nada os salvará.
+Qual o nome do assassino de Sexta-feira 13? (1980)",
+alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Pamela Voorhees ",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Jason Voorhees",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: " "Pânico 5,Vinte e cinco anos ápos uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescente para trazer á tona segredos do passado mortal da cidade. 
+Quem são os Assassinos em Pânico 5?";
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Richie e Amber",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Wes e Mindy",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Teste Terrortástico,Você é fã de filmes de terror? Prove acertando essas perguntas sobre os gêneros.  
+Qual filme de terror se tornou um ícone LGBTQIA+ após a Netflix acidentalmente colocá-lo na categoria de filmes LGBTQIA?",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
