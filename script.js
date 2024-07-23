@@ -38,37 +38,40 @@ Quem são os Assassinos em Pânico 5?";
 Qual filme de terror se tornou um ícone LGBTQIA+ após a Netflix acidentalmente colocá-lo na categoria de filmes LGBTQIA?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Invocação do Mal.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Babadook.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O Exorcista, uma atriz vai gradativamente tomando consciência de que sua filha esta tendo um comportamento assustador.
+            Sua mãe pede ajuda a um padre, e este chega a conclusão de que a garota esta possuida pelo demônio. No filme `O Exorcista´ (1973),
+            qual o nome do Demônio que possui o delegado Regan",
+
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Belzebu.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Pazuzu.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Filme de Terror, desde 1996, Ghostface. Tem assombrado os telefones alheios e feito a icônica pergunta:´ Qual seu filme de terror favorito´. Pórem, o assassino não se mantém apenas nessa curiosidade. Trazendo uma série de perguntas, entre fáceis e difíceis, o personagem sempre consegue supreender suas vítimas",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Se prepare para uma ligação inesperada com esse quiz que ira desafia seus conhecimentos sobre horror.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Preparado, nao esqueca de compatilhar o seu resultado.",
                 afirmacao: "afirmação"
             }
         ]
