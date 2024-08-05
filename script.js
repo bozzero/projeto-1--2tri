@@ -6,11 +6,10 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: " "É fã de filme de terror?,Adora ver os mais medrosos tomando sustos,Eles foram avisados, Eles estavam condenados,e na sexta-feira, nada os salvará.
-Qual o nome do assassino de Sexta-feira 13? (1980)",
-alternativas: [
+        enunciado: `"É fã de filme de terror? Adora ver os mais medrosos tomando sustos. Eles foram avisados, eles estavam condenados e, na sexta-feira, nada os salvará. Qual o nome do assassino de Sexta-feira 13? (1980)"`,
+        alternativas: [
             {
-                texto: "Pamela Voorhees ",
+                texto: "Pamela Voorhees",
                 afirmacao: "afirmação"
             },
             {
@@ -20,8 +19,7 @@ alternativas: [
         ]
     },
     {
-        enunciado: " "Pânico 5,Vinte e cinco anos ápos uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescente para trazer á tona segredos do passado mortal da cidade. 
-Quem são os Assassinos em Pânico 5?";
+        enunciado: `"Pânico 5. Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade. Quem são os assassinos em Pânico 5?"`,
         alternativas: [
             {
                 texto: "Richie e Amber",
@@ -34,50 +32,45 @@ Quem são os Assassinos em Pânico 5?";
         ]
     },
     {
-        enunciado: "Teste Terrortástico,Você é fã de filmes de terror? Prove acertando essas perguntas sobre os gêneros.  
-Qual filme de terror se tornou um ícone LGBTQIA+ após a Netflix acidentalmente colocá-lo na categoria de filmes LGBTQIA?",
+        enunciado: `"Teste Terrortástico. Você é fã de filmes de terror? Prove acertando essas perguntas sobre os gêneros. Qual filme de terror se tornou um ícone LGBTQIA+ após a Netflix acidentalmente colocá-lo na categoria de filmes LGBTQIA?"`,
         alternativas: [
             {
-                texto: "Invocação do Mal.",
+                texto: "Invocação do Mal",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Babadook.",
+                texto: "Babadook",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "O Exorcista, uma atriz vai gradativamente tomando consciência de que sua filha esta tendo um comportamento assustador.
-            Sua mãe pede ajuda a um padre, e este chega a conclusão de que a garota esta possuida pelo demônio. No filme `O Exorcista´ (1973),
-            qual o nome do Demônio que possui o delegado Regan",
-
+        enunciado: `"O Exorcista. Uma atriz vai gradativamente tomando consciência de que sua filha está tendo um comportamento assustador. Sua mãe pede ajuda a um padre, e este chega à conclusão de que a garota está possuída pelo demônio. No filme 'O Exorcista' (1973), qual o nome do demônio que possui a delegada Regan?"`,
         alternativas: [
             {
-                texto: "Belzebu.",
+                texto: "Belzebu",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Pazuzu.",
+                texto: "Pazuzu",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Filme de Terror, desde 1996, Ghostface. Tem assombrado os telefones alheios e feito a icônica pergunta:´ Qual seu filme de terror favorito´. Pórem, o assassino não se mantém apenas nessa curiosidade. Trazendo uma série de perguntas, entre fáceis e difíceis, o personagem sempre consegue supreender suas vítimas",
+        enunciado: `"Filme de Terror. Desde 1996, Ghostface tem assombrado os telefones alheios e feito a icônica pergunta: 'Qual seu filme de terror favorito?' Porém, o assassino não se mantém apenas nessa curiosidade. Trazendo uma série de perguntas, entre fáceis e difíceis, o personagem sempre consegue surpreender suas vítimas."`,
         alternativas: [
             {
-                texto: "Se prepare para uma ligação inesperada com esse quiz que ira desafia seus conhecimentos sobre horror.",
+                texto: "Se prepare para uma ligação inesperada com esse quiz que irá desafiar seus conhecimentos sobre horror.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Preparado, nao esqueca de compatilhar o seu resultado.",
+                texto: "Preparado, não esqueça de compartilhar o seu resultado.",
                 afirmacao: "afirmação"
             }
         ]
-    },
+    }
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -94,8 +87,8 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas) {
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
@@ -117,3 +110,9 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+                
+            
+                
+    
+        
+    
